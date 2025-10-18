@@ -6,6 +6,9 @@ public class Entrada {
 
         //Objeto del metodo Operadores
         Operadores operadoresVariable = new Operadores();
-
+        operadoresVariable.operadoresAritmeticos();
+        operadoresVariable.operadoresComparadores();
+        operadoresVariable.operadoresLogicos();
+        operadoresVariable.evaluarCandidato();
     }
 }
