@@ -131,4 +131,35 @@ public class Operadores {
 
         sc.close();
     }
+
+    public void cambiosTipo(){
+
+        //int letraAscii = 115;
+        // Casteo -> Un tipo de dato cambia momentaneamente- Solo se puede aplicar a tipos que estan dentro de otros.
+        char letra = 'w';
+
+        System.out.println((int)letra);
+
+        //Parse -> Cambio de tipo de dato Momentaneo- Tanto si el origen esta inluido en el destino como si no.
+        // Hay probabilidad de fallo. Con variable envolventes.
+        // Tipos de Parseo -> String -> int, double, boolean, char, float
+        // Parseo Boolean -> siempre va a ser false salvo que tu entrada de datos sea "true"
+
+        String palabra = "Hola";
+        String numero = "7";
+        // No puede cambiar la palabra hola a número
+        //System.out.println(Integer.parseInt(palabra)); // Va dar error
+        System.out.println(Integer.parseInt(numero) + 10);
+
+        // Caso inverso  a String
+        int numeros = 123;
+        System.out.println(String.valueOf(numeros) + 1);
+
+        boolean acierto = true;
+        System.out.println(String.valueOf(acierto) + "awd");
+
+        char word = 'a';
+        System.out.println(String.valueOf(word) + "pwd");
+
+    }
 }
