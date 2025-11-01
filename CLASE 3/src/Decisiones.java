@@ -3,7 +3,7 @@ public class Decisiones {
     public void estructuraIF (int nota){
         // Explicacion de estructura if
         // Es una estructura de selección que codigo tengo que ejecutar dependiendo de una condición logica (true - false).
-        // si (condicion) { cuerpo(se ejecuta esto) }
+        // si (condicion) {cuerpo(se ejecuta esto) }
 
 
         if (nota >= 5) {
